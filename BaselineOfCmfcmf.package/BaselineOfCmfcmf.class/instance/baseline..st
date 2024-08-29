@@ -6,7 +6,7 @@ baseline: spec
 			project: 'FFI' with: [
 				spec
 					className: 'ConfigurationOfFFI';
-					repository: 'http://www.squeaksource.com/MetacelloRepository';
+					repository: 'https://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository';
 					versionString: (SystemVersion current isAlpha
 						ifTrue: [#development]
 						ifFalse: [#stable]);
